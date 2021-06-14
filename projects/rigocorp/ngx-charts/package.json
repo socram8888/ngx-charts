@@ -1,10 +1,10 @@
 {
-  "name": "@swimlane/ngx-charts",
+  "name": "@rigocorp/ngx-charts",
   "version": "18.0.1",
   "description": "Declarative Charting Framework for Angular",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swimlane/ngx-charts.git"
+    "url": "git+https://github.com/RigoCorp/ngx-charts.git"
   },
   "keywords": [
     "angular",
@@ -23,7 +23,7 @@
     "viz",
     "graph"
   ],
-  "author": "Swimlane",
+  "author": "Rigoberto Corporation",
   "maintainers": [
     "Marjan Georgiev",
     "Jayson Harshbarger",
@@ -31,9 +31,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swimlane/ngx-charts/issues"
+    "url": "https://github.com/RigoCorp/ngx-charts/issues"
   },
-  "homepage": "https://github.com/swimlane/ngx-charts#readme",
+  "homepage": "https://github.com/RigoCorp/ngx-charts#readme",
   "peerDependencies": {
     "@angular/animations": ">=11.0.0",
     "@angular/cdk": ">=11.0.0",

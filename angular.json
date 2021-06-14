@@ -114,38 +114,38 @@
         }
       }
     },
-    "@swimlane/ngx-charts": {
+    "@rigocorp/ngx-charts": {
       "projectType": "library",
-      "root": "projects/swimlane/ngx-charts",
-      "sourceRoot": "projects/swimlane/ngx-charts/src",
+      "root": "projects/rigocorp/ngx-charts",
+      "sourceRoot": "projects/rigocorp/ngx-charts/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/swimlane/ngx-charts/tsconfig.lib.json",
-            "project": "projects/swimlane/ngx-charts/ng-package.json"
+            "tsConfig": "projects/rigocorp/ngx-charts/tsconfig.lib.json",
+            "project": "projects/rigocorp/ngx-charts/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/swimlane/ngx-charts/tsconfig.lib.prod.json"
+              "tsConfig": "projects/rigocorp/ngx-charts/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/swimlane/ngx-charts/src/test.ts",
-            "tsConfig": "projects/swimlane/ngx-charts/tsconfig.spec.json",
-            "karmaConfig": "projects/swimlane/ngx-charts/karma.conf.js"
+            "main": "projects/rigocorp/ngx-charts/src/test.ts",
+            "tsConfig": "projects/rigocorp/ngx-charts/tsconfig.spec.json",
+            "karmaConfig": "projects/rigocorp/ngx-charts/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/swimlane/ngx-charts/tsconfig.lib.json",
-              "projects/swimlane/ngx-charts/tsconfig.spec.json"
+              "projects/rigocorp/ngx-charts/tsconfig.lib.json",
+              "projects/rigocorp/ngx-charts/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
